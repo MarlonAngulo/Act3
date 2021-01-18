@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <title>Actividad 3</title>
+  <title>Actividad 3, explicando y dando a conocer el diseño responsive</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -66,13 +66,13 @@
     </div>
     <div class="product-screens">
       <div class="product-screen-1 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.6s">
-        <img src="img/product-screen-1.png" alt="Imagen de un chat textual">
+        <img src="img/product-screen-1.png" alt="Imagen de un chat textual" longdesc="imagen pantalla del chat 1">
       </div>
       <div class="product-screen-2 wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.6s">
-        <img src="img/product-screen-2.png" alt="Imagen de un chat textual y con imagenes">
+        <img src="img/product-screen-2.png" alt="Imagen de un chat textual y con imagenes" longdesc="imagen pantalla del chat 2">
       </div>
       <div class="product-screen-3 wow fadeInUp" data-wow-duration="0.6s">
-        <img src="img/product-screen-3.png" alt="Imagen de un chat donde se muestran las opciones disponibles">
+        <img src="img/product-screen-3.png" alt="Imagen de un chat donde se muestran las opciones disponibles" longdesc="imagen pantalla del chat 3">
       </div>
     </div>
   </section>
@@ -93,7 +93,7 @@
         </div>
         <div class="row">
           <div class="col-lg-6 about-img wow fadeInLeft">
-            <img src="img/about-img.jpg" alt="Imagen acerca de responsive">
+            <img src="img/about-img.jpg" alt="Imagen acerca de responsive" longdesc="Explicando de que trata el responsive">
           </div>
           <div class="col-lg-6 content wow fadeInRight">
             <h2>La actividad consiste en diseñar y desarrollar una página web que se pueda ver en varios dispositivos cambiando su estructura mediante las técnicas del responsive design</h2>
@@ -123,7 +123,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-5 features-img">
-            <img src="img/product-features.png" alt="imagen alusiva a las caracteristicas del responsive" class="wow fadeInLeft">
+            <img src="img/product-features.png" alt="imagen alusiva a las caracteristicas del responsive" class="wow fadeInLeft" longdesc="caracteristicas del responsive desing">
           </div>
           <div class="col-lg-8 col-md-7 ">
             <div class="row">
@@ -166,42 +166,42 @@
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item wow fadeInUp">
               <a href="img/galeria/gallery-1.jpg" class="gallery-popup">
-                <img src="img/galeria/gallery-1.jpg" alt="Imagen de las partes del dise;o responsive">
+                <img src="img/galeria/gallery-1.jpg" alt="Imagen de las partes del diseño responsive" longdesc="partes del diseño sensible">
               </a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item wow fadeInUp">
               <a href="img/galeria/gallery-2.jpg" class="gallery-popup">
-                <img src="img/galeria/gallery-2.jpg" alt="Imagen alusiva a la visualisación en diferentes dispositivos">
+                <img src="img/galeria/gallery-2.jpg" alt="Imagen alusiva a la visualisación en diferentes dispositivos" longdesc="forma en que se visualiza en disferentes dispositivos">
               </a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item wow fadeInUp">
               <a href="img/galeria/gallery-3.jpg" class="gallery-popup">
-                <img src="img/galeria/gallery-3.jpg" alt="Imagen de la visualización en movil">
+                <img src="img/galeria/gallery-3.jpg" alt="Imagen de la visualización en movil" longdesc="muestra como se visualiza en un movil">
               </a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item wow fadeInUp">
               <a href="img/galeria/gallery-4.jpg" class="gallery-popup">
-                <img src="img/galeria/gallery-4.jpg" alt="Imagen de la visualización en tablet">
+                <img src="img/galeria/gallery-4.jpg" alt="Imagen de la visualización en tablet" longdesc="muestra como se visualiza en una tablet">
               </a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item wow fadeInUp">
               <a href="img/galeria/gallery-5.jpg" class="gallery-popup">
-                <img src="img/galeria/gallery-5.jpg" alt="Imagen de la visualización en mochos dispositivos">
+                <img src="img/galeria/gallery-5.jpg" alt="Imagen de la visualización en mochos dispositivos" longdesc="imuestra como podemos verlo en muchas pantallas">
               </a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item wow fadeInUp">
               <a href="img/galeria/gallery-6.jpg" class="gallery-popup">
-                <img src="img/galeria/gallery-6.jpg" alt="Imagen de la visualización en general">
+                <img src="img/galeria/gallery-6.jpg" alt="Imagen de la visualización en general" longdesc="iMuestra como se ve en general en muchos dispositivos">
               </a>
             </div>
           </div>
@@ -245,24 +245,22 @@
           </div>
           <div class="col-lg-5 col-md-8">
             <div class="form">
-              <div id="sendmessage">Su mensaje se ha enviado, muchas gracias</div>
-              <div id="errormessage"></div>
               <form  method="post"  class="contactForm">
-                <label for="name">Nombre Completo</label>
                 <div class="form-row">
                   <div class="form-group col-lg-6">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Nombre completo" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <label for="name">Nombre Completo</label>
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Nombre completo" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required="" />
                     <div class="validation"></div>
                   </div>
                   <div class="form-group col-lg-6">
                     <label for="email">Email</label>
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Ingreso su Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Ingreso su Email" data-rule="email" data-msg="Please enter a valid email" required="" />
                     <div class="validation"></div>
                   </div>
                 </div>
                 <div class="form-group">
                   <label for="subject">Motivo</label>
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Ingrese el Motivo" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Ingrese el Motivo" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" required="" />
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
